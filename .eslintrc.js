@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module'
@@ -15,11 +16,16 @@ module.exports = {
     browser: true
   },
   rules: {
+    'ember/routes-segments-snake-case': 0,
+    'no-debugger': 0,
+    'no-console': 0,
+    'no-unused-vars': 0
   },
   overrides: [
     // node files
     {
       files: [
+        '.ember-cli.js',
         '.eslintrc.js',
         '.template-lintrc.js',
         'ember-cli-build.js',
@@ -29,6 +35,7 @@ module.exports = {
         'lib/*/index.js',
         'server/**/*.js'
       ],
+      excludedFiles: ['app/**'],
       parserOptions: {
         sourceType: 'script',
         ecmaVersion: 2015
