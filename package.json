@@ -19,12 +19,21 @@
   },
   "devDependencies": {
     "@ember/optional-features": "^0.7.0",
-    "@glimmer/component": "^0.13.0",
+    "@ember/render-modifiers": "^1.0.0",
+    "@glimmer/component": "^0.14.0-alpha.3",
+    "@types/ember": "^3.1.0",
+    "@types/ember-qunit": "^3.4.6",
+    "@types/ember-test-helpers": "^1.0.5",
+    "@types/ember-testing-helpers": "0.0.3",
+    "@types/ember__test-helpers": "^0.7.8",
+    "@types/qunit": "^2.9.0",
+    "@types/rsvp": "^4.0.2",
     "babel-eslint": "^10.0.1",
     "broccoli-asset-rev": "^3.0.0",
     "ember-ajax": "^5.0.0",
     "ember-cli": "~3.10.0",
     "ember-cli-app-version": "^3.2.0",
+    "ember-cli-autoprefixer": "^0.8.1",
     "ember-cli-babel": "^7.7.3",
     "ember-cli-dependency-checker": "^3.1.0",
     "ember-cli-eslint": "^5.1.0",
@@ -50,5 +59,6 @@
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
-  }
+  },
+  "dependencies": {}
 }
