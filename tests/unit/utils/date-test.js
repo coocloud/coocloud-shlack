@@ -1,4 +1,4 @@
-import { dateToString } from 'shlack/utils/date';
+import { dateToString } from 'coocloudshlack/utils/date';
 import { module, test } from 'qunit';
 
 module('Unit | Utility | date', function() {
