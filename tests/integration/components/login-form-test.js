@@ -22,7 +22,6 @@ module('Integration | Component | login-form', function(hooks) {
         'Select a user',
         'Guest 1',
         'Guest 2',
-        'A validation message',
       ]
     );
   });
